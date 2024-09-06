@@ -5,3 +5,4 @@ Nama saya Adelia Rizki
 prodi saya Sistem Informasi Bisnis
 hobi saya memasak
 jurusan teknologi informasi
+salam kenal
