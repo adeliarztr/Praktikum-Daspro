@@ -1,7 +1,7 @@
 
 public class Test {
     public static void main(String[] args) {
-        char golonganDarah ='B':
+        char golonganDarah ='B';
         short jumlahPenduduk = 1025;
         float suhu = 60.50f;
         double berat = 0.5467812345;
