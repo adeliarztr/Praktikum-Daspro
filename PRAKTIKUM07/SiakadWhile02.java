@@ -6,8 +6,6 @@ public class SiakadWhile02 {
         int i = 0, jml;
         System.out.println("Masukan jumlah mahasiswa: ");
         jml = sc.nextInt();
-        int lulus = 0;
-        int tidakLulus = 0;
 
         while (i < jml) {
             System.out.println("Masukan nilai Mahasiswa ke-" + (i + 1) + ":");
@@ -18,11 +16,6 @@ public class SiakadWhile02 {
                 continue;
             }
             
-            if (nilai > 60) {
-                System.out.println("Lulus");
-            }else {
-                System.out.println("Tidak lulus");
-            }
 
             if (nilai > 80 && nilai <= 100) {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah A");
@@ -43,9 +36,6 @@ public class SiakadWhile02 {
             i ++;
 
         }
-
-        System.out.println("Jumlah mahasiswa lulus: " + lulus);
-        System.out.println("Jumlah mahasiswa tidak lulus: " + tidakLulus);
 
     }
 }
