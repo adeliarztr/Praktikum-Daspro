@@ -28,7 +28,7 @@ public class Kafe02 {
             case "coklat":
                 hargaMenu = 20000;    
                 break;
-                default:
+            default:
                 System.out.println(" Menu tidak tersedia ");
                 return;
         }
@@ -42,7 +42,7 @@ public class Kafe02 {
             case 'L':
                 totalHarga += 0.4 * totalHarga;
                 break;
-                default:System.out.println("Size yang dipilih tidak tersedia");
+            default:System.out.println("Size yang dipilih tidak tersedia");
                 return;
         }
         double diskon = keanggotaan ? 0.1 : 0;

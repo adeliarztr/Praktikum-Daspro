@@ -1,3 +1,4 @@
 {
-    "vscode-pets.petSize": "small"
+    "vscode-pets.petSize": "small",
+    "java.debug.settings.onBuildFailureProceed": true
 }
